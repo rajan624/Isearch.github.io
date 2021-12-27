@@ -1,0 +1,77 @@
+body{
+    background-image: url("image/Capture.jpg");
+    background-size: auto;
+    background-position: top center;
+}
+#password{
+    border: 0.1em solid white;
+    background-color: whitesmoke;
+    padding: 0.2em,0.2em,0.2em.0.2em;
+    width: 25em;
+    height: 3em;
+    margin: -1px;
+    border-radius: 0.2em;
+    font-size: 0.9em;
+}
+#email{
+    border: 0.1em solid white;
+    background-color: whitesmoke;
+    padding: 0.2em,0.2em,0.2em.0.2em;
+    width: 25em;
+    height: 3em;
+    margin: -1px;
+    border-radius: 0.2em;
+    font-size: 0.9em;
+    right: 20px;
+} 
+#login{
+padding: 0.2em,0.2em,0.2em.0.2em;
+    width: 25em;
+    height: 3em;
+    margin: -1px;
+    border-radius: 0.2em;
+    font-weight: bold;
+    border: none;
+    background-color:#1877f2; 
+    text-decoration-style: none; 
+    color: white; 
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+}
+#signup{
+width: 13em;
+height: 2.7em;
+border-radius: 0.2em;
+cursor: pointer;
+border: none;
+background-color: #00a400;
+color:white;
+font-weight: bold;
+}
+#forgetPassword{
+    width: 13em;
+height: 2.7em;
+border-radius: 0.2em;
+cursor: pointer;
+border: none;
+background-color: #002532 ;
+color:white;
+font-weight: bold;
+right: 50%;
+}
+.form{
+    text-align: center;
+}
+#verifyemail{
+    width: 13em;
+height: 2.7em;
+border-radius: 0.2em;
+cursor: pointer;
+border: none;
+background-color: #123456 ;
+color:white;
+font-weight: bold;
+right: 50%;
+}

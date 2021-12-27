@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./mycomplaint.css">
+</head>
+<body>
+    <section>
+        <nav>
+            <a href="homepage.html" class="logo" style=" color: #008CBA;">@Isearch</a>
+            <ul>
+                <li><a href="homepage.html" >Home</a></li>
+                <li><a href="#" class="active">My Complaint</a></li>
+                <button class="logout" id="addcomplaint" onclick="openForm()">Add Complaint</button>
+                <button class="logout" id="showdata">show data</button>
+               <li><a href="updateform.html">update your status</a></li>
+                <li><a href="allcomplaint.html">All Complaint</a></li>
+            </ul>
+        </nav>
+     </section>  
+     <table>
+      <thead>
+        <th>Lost Person Name</th>
+        <th>Gender</th>
+        <th>Age</th>
+        <th>Height</th>
+        <th>Color</th>
+        <th>something Sepecial</th>
+        <th>Address</th>
+        <th>Adhar</th>
+        <th>Mobile no</th>
+        <th>last location</th>
+        <th>Any marks</th>
+        <th>Prize</th>
+        <th>Status</th>
+      </thead>
+      <tbody id="tbody1">
+        
+      </tbody>
+    </table>
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1 style="text-align: center;">Add Your Complaint</h1>
+
+    <label><b>Lost Person Name</b></label>
+    <input type="text" id="name" placeholder="Enter Name" name="name" required>
+    
+    <label><b>Gender</b></label>
+    <input type="text" id="gender" placeholder="Enter Gender" name="gender" required>
+    
+    <label><b>Age</b></label>
+    <input type="text" id="age" placeholder="Enter Age" name="Age" required>
+
+    <label><b>Height</b></label>
+    <input type="text" id="height" placeholder="Enter Height" name="height" required>
+    
+    <label><b>Color</b></label>
+    <input type="text" id="color" placeholder="Enter color" name="color" required>
+    
+    <label><b>something speical</b></label>
+    <input type="text" id="somethingspecial" placeholder="Enter something speical" name="somethingspecial" required>
+
+    <label><b>Adress</b></label>
+    <input type="text" id="address" placeholder="Enter Adress" name="address" required>
+
+    <label><b>Adhar no</b></label>
+    <input type="text" id="adhar" placeholder="Enter Adhar no" name="address" required>
+    
+    <label><b>Mobile Number</b></label>
+    <input type="text" id="mobile" placeholder="Enter Mobile Number" name="Number" required>
+
+    <label><b>Last Location</b></label>
+    <input type="text" id="lastlocation" placeholder="Last Location" name="lastlocation" required>
+    
+    <label for="anymarks"><b>Any Marks</b></label>
+    <input type="text" id="anymarks" placeholder="Enter Email" name="anymarks" required>
+
+    <label><b>Prize</b></label>
+    <input type="text" id="prize" placeholder="Enter Amount for prize" required>
+    
+    <button id="addcomp" type="submit" class="btn">Add Complaint</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+<script>
+     function openForm() {
+      document.getElementById("myForm").style.display = "block";
+    }
+    
+    function closeForm() {
+      document.getElementById("myForm").style.display = "none";
+    }
+    function openForm1() {
+      document.getElementById("myForm1").style.display = "block";
+    }
+    
+    function closeForm1() {
+      document.getElementById("myForm1").style.display = "none";
+    }
+</script>
+<script type="module" src="./mycomplaint.js"></script
+
+</body>
+</html>

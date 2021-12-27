@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mycomplaint.css">
+    <style>
+        #upadhar{
+    border: 0.1em solid black;
+    background-color: whitesmoke;
+    padding: 0.2em,0.2em,0.2em.0.2em;
+    width: 25em;
+    height: 3em;
+    margin-left: 39%;
+    border-radius: 0.2em;
+    font-size: 0.9em;
+    left: 25%;
+    margin-top: 1%;
+}
+#upstatus{
+    border: 0.1em solid black;
+    background-color: whitesmoke;
+    padding: 0.2em,0.2em,0.2em.0.2em;
+    width: 25em;
+    height: 3em;
+    margin-left: 39%;
+    border-radius: 0.2em;
+    font-size: 0.9em;
+    right: 20px;
+    margin-top: 1%;
+} 
+#upcomp ,#delcomp{
+    margin-left: 40%;
+    margin-top: 1%;
+    padding: 0.2em,0.2em,0.2em.0.2em;
+    width: 25em;
+    height: 3em;
+    border-radius: 0.2em;
+    font-weight: bold;
+    border: none;
+    background-color:#1877f2; 
+    text-decoration-style: none; 
+    color: white; 
+    cursor: pointer;
+}
+.active{
+   font-weight: bold;
+   color: #2d2a2a; 
+}
+
+    </style>
+</head>
+<body>
+    <section>
+        <nav>
+            <a href="homepage.html" class="logo" style=" color: #008CBA;">@Isearch</a>
+            <ul>
+                <li><a href="homepage.html" >Home</a></li>
+                <li><a href="mycomplaint.html" >My Complaint</a></li>
+                <button style="color: black; cursor: default;" class="logout" id="updata" class="active">update status</button>
+                <li><a href="allcomplaint.html">All Complaint</a></li>
+            </ul>
+        </nav>
+     </section>
+     <div>
+          <h1 style="text-align: center;">Update Your status</h1>
+          <input type="text" id="upadhar" placeholder="Enter Adhar no" name="upname" required><br>
+          <input type="text" id="upstatus" placeholder="Enter Status" name="upgender" required><br>
+          <button id="upcomp" type="submit" class="btn">Update Status</button><br>
+          <button id="delcomp" type="submit" class="btn" style="background-color: red;">Delete Complaint</button>
+      </div>
+      <script type="module" src="./updates.js"></script
+</body>
+</html>
